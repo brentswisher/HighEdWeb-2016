@@ -1,0 +1,838 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/solarized.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!--- Custom styles --->
+		<link rel="stylesheet" href="css/styles.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Building up Your development Toolbox</h1>
+				</section>
+				<section data-background="img/brentswisher.jpg">
+					<div class="intro">
+						<h2>Hello!</h2>
+						<p>
+							I'm Brent Swisher<br />
+							I make websites and things<br />
+							<a href="https://www.twitter.com/brentswisher">@brentswisher</a>
+						</p>
+					</div>
+				</section>
+				<section data-background="img/allendale.jpg">
+					<div class="intro">
+						<h2>Grand Valley<br /> State University</h2>
+						<p>
+							Just over 25,000 Students <br />
+							<a href="http://www.gvsu.edu/quickfacts">www.gvsu.edu/quickfacts</a>
+						</p>
+					</div>
+				</section>
+				<section>
+					<div style="float:left;text-align: left;">
+						<h2 style="margin-top:5em;">GV Web Team</h2>
+						<p>
+							Centralized Team <br />
+							Institutional Marketing<br />
+							<a href="http://www.gvsu.edu/webteam">www.gvsu.edu/webteam</a>
+						</p>
+					</div>
+					<img src="img/webteam.png" alt="Web Team" style="position:absolute;right:0;top:0;border:none;box-shadow:none;background:none;"/>
+				</section>
+
+				<section>
+					<h2>Story Time</h2>
+					<p class="fragment">It's 2014</p>
+					<p class="fragment">My house is sinking</p>
+					<p class="fragment">I need a beam</p>
+					<p class="fragment">Which means I need a plumber</p>
+					<p class="fragment">So I meet Bill</p>
+					<p class="fragment">Bill teaches me about web development??</p>
+				</section>
+				<section class="quote">
+					<p>
+						&ldquo;...afraid <br />
+						it would<br />
+						cheapen the <u>trade.</u>&rdquo;
+					</p>
+				</section>
+				<section>
+					<h2>Craftsmanship</h2>
+				</section>
+				<section data-background="img/pex.jpg" class="bigimage">
+					<h2>It's this</h2>
+				</section>
+				<section>
+					<h2>Evaluating Tools</h2>
+				</section>
+				<section data-background="img/toolwall.jpg" class="bigimage">
+					<h2>
+						Too many options
+					</h2>
+				</section>
+				<section>
+					<h2>How do you decide?</h2>
+					<ul>
+						<li class="fragment">How does it make my life better?</li>
+						<li class="fragment">How does it make my life worse?</li>
+						<li class="fragment">Which matters more?</li>
+					</ul>
+					<aside class="notes">
+						<ul>
+							<li>Saves time (Efficiency)</li>
+							<li>Raises standard of the work (Quality)</li>
+							<li>Makes boring crap easier (Automation)</li>
+						</ul>
+						<ul>
+							<li>What's the learning curve</li>
+							<li>Does it fit our technology stack</li>
+							<li>What is our teams group dynamic</li>
+							<li>How likely is it to break?</li>
+						</ul>
+					</aside>
+				</section>
+				<section>
+					<h2>Why is this important?</h2>
+					<p>
+						A tale of three developers</p>
+					<ul>
+						<li class="fragment">The jQuery Kid</li>
+						<li class="fragment">If it isn't broke...</li>
+						<li class="fragment">I don't have time...</li>
+					</ul>
+				</section>
+
+				<!--- Favorite Tools--->
+				<section>
+					<h2>My Favorite Tools</h2>
+				</section>
+				<!--- Sublime text --->
+				<section>
+					<section>
+						<h2>Sublime Text</h2>
+						<img src="img/sublime/logo.jpg" alt="Sublime logo" />
+					</section>
+					
+					<section>
+						<h2>It's <strong>FAST</strong></h2>
+					</section>
+					<section class="image">
+						<img src="img/sublime/fast.gif" alt="Faster Editor" />
+					</section>
+
+					<section>
+						<h2>Multiple Cursors</h2>
+					</section>
+					<section class="image">
+						<strong>Say What?</strong><br />
+						<img src="img/sublime/multiCursor.gif" alt="Open last tab" />
+					</section>
+					<section class="image">
+						<strong>Select Next (cmd+D)</strong>
+						<img src="img/sublime/selectNext.gif" alt="Open last tab" />
+					</section>
+					<section class="image">
+						<strong>Select All (Ctrl+cmd+G)</strong>
+						<img src="img/sublime/selectAll.gif" alt="Open last tab" />
+					</section>
+					
+					<section>
+						<h2>Find Anything</h2>
+					</section>
+					<section class="image">
+						<strong>Browse Files (cmd+p)</strong>
+						<img src="img/sublime/goFile.gif" alt="Open last tab" />
+					</section>
+					<section class="image">
+						<strong>Jump to line (cmd+p, :)</strong>
+						<img src="img/sublime/goLine.gif" alt="Open last tab" />
+					</section>
+					<section class="image">
+						<strong>Jump to function (cmd+p, @)</strong>
+						<img src="img/sublime/goFunction.gif" alt="Open last tab" />
+					</section>
+
+					<section>
+						<h2>Other Fun Things</h2>
+					</section>
+					<section class="image">
+						<strong>Open Previously Closed Tab (Shift+CMD+T)</strong>
+						<img src="img/sublime/lastTab.gif" alt="Open last tab" />
+					</section>
+					<section class="image">
+						<strong>Package Manager</strong>
+						<img src="img/sublime/packageManager.gif" alt="Open last tab" />
+					</section>
+					<section>
+						<h2>Favorite Packages</h2>
+						<ul>
+							<li>Bracket Highligher</li>
+							<li>Better Completions</li>
+							<li>Sidebar Enhancements</li>
+							<li>SublimeLinter</li>
+						</ul>
+					</section>
+				</section>
+
+				<!--- iTerm --->
+				<section>
+					<section>
+						<h2>iTerm 2</h2>
+						<img src="img/iterm/logo.png" alt="iTerm logo" />
+					</section>
+					<section class="image80">
+						<strong>Tabs/Panels</strong>
+						<img src="img/iterm/panes.gif" alt="Open last tab" />
+					</section>
+					<section class="image80">
+						<strong>Go Back In Time</strong>
+						<img src="img/iterm/back.gif" alt="Open last tab" />
+					</section>
+					<section>
+						<h2>Other Fun Things</h2>
+						<ul>
+							<li>Multiple Profiles</li>
+							<li>Paste History</li>
+							<li>Integrated 'ps' window</li>
+							<li>Better Color Choices</li>
+						</ul>
+					</section>
+				</section>
+				
+				<!--- Grunt --->
+				<section>
+					<section>
+						<h2>Grunt</h2>
+						<img src="img/grunt/logo.png" alt="Grunt logo" />
+					</section>
+					<section class="image">
+						<strong>Live Reload</strong>
+						<img src="img/grunt/watch.gif" alt="Grunt Watch" />
+					</section>
+					<section class="image">
+						<strong>Code Linting</strong>
+						<img src="img/grunt/lint.gif" alt="Grunt Linting" />
+					</section>
+					<section class="image">
+						<strong>Compression/Pre-processors</strong>
+						<img src="img/grunt/minify.gif" alt="Grunt Minify" />
+					</section>
+				</section>
+
+				<!--- Slack --->
+				<section>
+					<section>
+						<h2>Slack</h2>
+						<img src="img/slack/logo.jpg" alt="Slack logo" />
+					</section>
+					<section class="image">
+						<strong>Team Chat</strong>
+						<img src="img/slack/chat.gif" alt="Slack Team Chat" />
+					</section>
+					<section class="image">
+						<strong>Multi-person DM</strong>
+						<img src="img/slack/dm.png" alt="Slack DM" />
+					</section>
+					<section class="image">
+						<strong>Reminders</strong>
+						<img src="img/slack/reminder.png" alt="Slack reminders" />
+					</section>
+					<section class="image">
+						<strong>Integrations</strong>
+						<img src="img/slack/poll.png" alt="Slack Polls" />
+					</section>
+					<section class="image">
+						<strong>Custom Bots</strong>
+						<img src="img/slack/hippo.png" alt="Slack Bots" />
+					</section>
+				</section>
+
+				<!--- Other Tools --->
+				<!--- Accessibility --->
+				<section>
+					<h2>Accessibility</h2>
+				</section>
+				<section class="image">
+					<section>
+						<strong>Siteimprove</strong><br />
+						<img src="img/siteimprove.png" alt="Site Improve" style="width:80%;"/>
+					</section>
+					<section>
+						<p>
+							<a href="http://siteimprove.com/">http://siteimprove.com/</a>
+						</p>
+					</section>
+				</section>
+				<section class="image70">
+					<section>
+						<strong>Color Oracle</strong><br />
+						<img src="img/colororacle.png" alt="Code School" />
+					</section>
+					<section>
+						<p>Filters screen to imitate color blindness</p>
+						<ul>
+							<li>Deuteranopia</li>
+							<li>Protanopia</li>
+							<li>Tritanopia</li>
+						</ul>
+						<p>
+							<a href="http://colororacle.org">http://colororacle.org</a>
+						</p>
+					</section>
+				</section>
+				<section class="image">
+					<section>
+						<strong>Colour Contrast Analyzer</strong><br />
+						<img src="img/colourcontrastanalyzer.png" alt="Colour Analyzer" />
+					</section>
+					<section>
+						<p>
+							<a href="https://www.paciellogroup.com/resources/contrastanalyser/">https://www.paciellogroup.com/resources/contrastanalyser/</a>
+						</p>
+					</section>
+				</section>
+				<section class="image">
+					<section>
+						<strong>Contrast Ratio</strong><br />
+						<img src="img/contrastratio.png" alt="Contrast Ratio" />
+					</section>
+					<section>
+						<p>
+							<a href="http://leaverou.github.io/contrast-ratio/">http://leaverou.github.io/contrast-ratio/</a>
+						</p>
+					</section>
+				</section>
+
+				<!--- Design --->
+				<section>
+					<h2>Design</h2>
+				</section>
+				<section class="image">
+					<section>
+						<strong>Eye Dropper</strong><br />
+						<img src="img/eyedropper.png" alt="Eye Dropper" />
+					</section>
+					<section>
+						<p>
+							<a href="https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka?hl=en">https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka?hl=en</a>
+						</p>
+					</section>
+				</section>
+				<section class="image">
+					<section>
+						<strong>Bootstrap Themes</strong><br />
+						<img src="img/bootstrapthemes.png" alt="cat ipsum" />
+					</section>
+					<section>
+						<strong>Free!</strong><br />
+						<ul>
+							<li><a href="https://bootswatch.com/">Bootswatch</a></li>
+							<li><a href="http://startbootstrap.com/">Start Bootstrap</a></li>
+						</ul>
+						<br />
+						<br />
+						<strong>Paid</strong><br />
+						<ul>
+							<li><a href="https://wrapbootstrap.com/">{wrap}bootstrap</a></li>
+							<li><a href="http://themes.getbootstrap.com/">Official Themes</a></li>
+						</ul>
+					</section>
+				</section>
+				<section class="image80">
+					<section>
+						<strong>What Font</strong><br />
+						<img src="img/whatfont.png" alt="What Font" />
+					</section>
+					<section>
+						<p>
+							<a href="https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?hl=en">https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?hl=en</a>
+						</p>
+					</section>
+				</section>
+				<section class="image80">
+					<section>
+						<strong>Dimensions</strong><br />
+						<img src="img/dimensions.png" alt="Dimensions" />
+					</section>
+					<section>
+						<p>
+							<a href="https://chrome.google.com/webstore/detail/dimensions/baocaagndhipibgklemoalmkljaimfdj?hl=en">https://chrome.google.com/webstore/detail/dimensions/baocaagndhipibgklemoalmkljaimfdj?hl=en</a>
+						</p>
+					</section>
+				</section>
+				<section class="image">
+					<section>
+						<strong>MeasureIt</strong><br />
+						<img src="img/measureit.png" alt="Measure It" />
+					</section>
+					<section>
+						<p>
+							<a href="https://chrome.google.com/webstore/detail/measureit/pokhcahijjfkdccinalifdifljglhclm?hl=en">https://chrome.google.com/webstore/detail/measureit/pokhcahijjfkdccinalifdifljglhclm?hl=en</a>
+						</p>
+					</section>
+				</section>
+				<section class="image">
+					<section>
+						<strong>Image Size Info</strong><br />
+						<img src="img/imageinfo.png" alt="Image Size Info" />
+					</section>
+					<section>
+						<ul>
+							<li>Chrome Extension</li>
+							<li>
+								Right click to view image
+								<ul>
+									<li>Size</li>
+									<li>Displayed & Actual Dimensions</li>
+									<li>Path</li>
+								</ul>
+							</li>
+						</ul>
+						<p>
+							<a href="https://chrome.google.com/webstore/detail/image-size-info/oihdhfbfoagfkpcncinlbhfdgpegcigf?hl=en">https://chrome.google.com/webstore/detail/image-size-info/oihdhfbfoagfkpcncinlbhfdgpegcigf?hl=en</a>
+						</p>
+					</section>
+				</section>
+				<section class="image">
+					<section>
+						<strong>OSX Resizer</strong><br />
+						<img src="img/osxresizer.png" alt="OSX Resixer" />
+					</section>
+					<section>
+						<p>
+							<a href="https://chrome.google.com/webstore/detail/osx-resizer/aopgpanbkndckicpnnnaeiebllepdldc?hl=en">https://chrome.google.com/webstore/detail/osx-resizer/aopgpanbkndckicpnnnaeiebllepdldc?hl=en</a>
+						</p>
+					</section>
+				</section>
+				<section class="image80">
+					<section>
+						<strong>Color Thief</strong><br />
+						<img src="img/colorthief.png" alt="Color Thief" />
+					</section>
+					<section>
+						<p>
+							<a href="http://lokeshdhakar.com/projects/color-thief/">http://lokeshdhakar.com/projects/color-thief/</a>
+						</p>					
+					</section>
+				</section>
+
+				<!--- Productivity --->
+				<section>
+					<h2>Productivity</h2>
+				</section>
+				<section class="image70">
+					<section>
+						<strong>Egg Timer</strong><br />
+						<img src="img/eggtimer.gif" alt="Egg Timer" />
+					</section>
+					<section>
+						<p>Pass the time in the url</p>
+						<ul>
+							<li>e.ggtimer.com/4minutes</li>
+							<li>e.ggtimer.com/1hour</li>
+						</ul>
+						<p>
+							Useful for the <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">Pomodora Technique</a>
+						</p>
+						<p>
+							<a href="http://e.ggtimer.com/">http://e.ggtimer.com/</a>
+						</p>
+					</section>
+				</section>
+				<section class="image80">
+					<section>
+						<strong>Code School</strong><br />
+						<img src="img/codeschool.png" alt="Code School" />
+					</section>
+					<section>
+						<ul>
+							<li>
+								<a href="https://www.codeschool.com/free">Free Intro Courses</a>
+							</li>
+							<li>
+								<a href="https://www.codeschool.com/courses/try-git">Git Classes</a>
+							</li>
+							<li>
+								<a href="https://www.codeschool.com/courses/discover-devtools">Developer Tools</a>
+							</li>
+						</ul>
+					</section>
+				</section>
+
+				<!--- Performance --->
+				<section>
+					<h2>Performance Tools</h2>
+				</section>
+				<section class="image">
+					<section>
+						<strong>Google Page Speed</strong><br />
+						<img src="img/pagespeed.gif" alt="Page Speed" />
+					</section>
+					<section>
+						<p>
+							<a href="https://developers.google.com/speed/pagespeed/">https://developers.google.com/speed/pagespeed/</a>
+						</p>
+					</section>
+				</section>
+				<section class="image80">
+					<section>
+						<strong>TinyPng</strong><br />
+						<img src="img/tinypng.gif" alt="Tiny PNG" />
+					</section>
+					<section>
+						<p>
+							<a href="https://tinypng.com/">https://tinypng.com/</a>
+						</p>
+					</section>
+				</section>
+				<section class="image">
+					<section>
+						<strong>Web Page Test</strong><br />
+						<img src="img/webpagetest.png" alt="Web Page Test" />
+					</section>
+					<section>
+						<p>
+							<a href="https://webpagetest.org/">https://webpagetest.org/</a>
+						</p>
+					</section>
+				</section>
+
+				
+				<!--- Misc. --->
+				<section>
+					<h2>Misc.</h2>
+				</section>
+				<section class="image80">
+					<section>
+						<strong>Latin is boring</strong>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</section>
+					<section>
+						<strong>
+							<a href="http://www.catipsum.com/">
+								Cat Ipsum
+							</a>
+						</strong><br />
+						<img src="img/catipsum.png" alt="Cat Ipsum" />
+					</section>
+					<section>
+						<strong>
+							<a href="http://baconipsum.com/">
+								Bacon Ipsum
+							</a>
+						</strong><br />
+						<img src="img/baconipsum.png" alt="Bacon Ipsum" />
+					</section>
+					<section>
+						<strong>
+							<a href="http://http://hipsum.co//">
+								Hipster Ipsum
+							</a>
+						</strong><br />
+						<img src="img/hipsum.png" alt="Hipster Ipsum" />
+					</section>
+				</section>
+				<section class="image80">
+					<section>
+						<strong>Grand Perspective</strong><br />
+						<img src="img/grandperspective.png" alt="Grand Perspective" />
+					</section>
+					<section>
+						<p>
+							<a href="http://grandperspectiv.sourceforge.net/">http://grandperspectiv.sourceforge.net/</a>
+						</p>
+					</section>
+				</section>
+				<section class="image80">
+					<section>
+						<strong>Skitch</strong><br />
+						<img src="img/skitch.gif" alt="" />
+					</section>
+					<section>
+						<p>
+							<a href="https://evernote.com/skitch/">https://evernote.com/skitch/</a>
+						</p>
+					</section>
+				</section>
+				<section class="image">
+					<section>
+						<strong>RecordIt</strong><br />
+						<img src="img/recordit.gif" alt="" />
+					</section>
+					<section>
+						<p>
+							<a href="http://recordit.co/">http://recordit.co/</a>
+						</p>
+					</section>
+				</section>
+				<section class="image">
+					<section>
+						<strong>Giphy</strong><br />
+						<img src="img/giphy.gif" alt="Street Sharks" />
+						<p>Gifs for everything!!</p>
+					</section>
+					<section>
+						<ul>
+							<li><a href="http://giphy.com/">http://giphy.com/</a></li>
+							<li><a href="https://chrome.google.com/webstore/detail/giphy-for-chrome/jlleokkdhkflpmghiioglgmnminbekdi?hl=en">Chrome Extension</a></li>
+							<li><a href="https://slack.com/apps/A0F827J2C-giphy">Slack Integration</a></li>
+						</ul>
+					</section>
+				</section>
+				<section class="image">
+					<section>
+						<strong>Placekitten</strong><br />
+						<img src="img/placekitten.png" alt="Place Kitten" />
+					</section>
+					<section>
+						<p>
+							<a href="http://placekitten.com/">http://placekitten.com/</a>
+						</p>
+					</section>
+				</section>
+				<section class="image80">
+					<section>
+						<strong>What’s My Browser</strong><br />
+						<img src="img/whatismybrowser.png" alt="" />
+					</section>
+					<section>
+						<p>
+							<a href="http://www.whatsmybrowser.org/">http://www.whatsmybrowser.org/</a>
+						</p>
+					</section>
+				</section>
+				
+				<!--- Command Line --->
+				<section>
+					<h2>The Command Line</h2>
+				</section>
+				<section>
+					<section>
+						<strong>Git Hist</strong>
+						<pre>
+							<code>
+[alias]
+hist = git log --pretty=format:\"%ad - %an | %s%d \" --graph --date=relative
+							</code>
+						</pre>
+					</section>
+					<section>
+						<p>
+							Git command line alias to semi-graphically show git history.<br />
+							(Set in ~/.gitconfig)
+						</p>
+					</section>
+					<section class="image80">
+						<img src="img/gitlog.png" alt="git log" />
+					</section>
+					<section class="image80">
+						<img src="img/githist.png" alt="git hist" />
+					</section>
+				</section>
+				<section>
+					<section>
+						<strong>Git Files</strong>
+						<pre>
+							<code>
+[alias]
+files = !sh -c 'clear && git log --oneline --stat -n ${1:-5}' -
+							</code>
+						</pre>
+					</section>
+					<section>
+						<p>
+							Git command line alias to show recently changed files.<br />
+							(Set in ~/.gitconfig)
+						</p>
+					</section>
+					<section class="image80">
+						<img src="img/gitfiles.png" alt="git log" />
+					</section>
+				</section>
+				<section>
+					<section>
+						<strong>Better ls</strong>
+						<pre>
+							<code>
+alias ls='ls -GFh'
+							</code>
+						</pre>
+					</section>
+					<section>
+						<p>
+							Add color and make file size human readable
+						</p>
+					</section>
+					<section class="image">
+						<img src="img/ls.png" alt="LS with color" />
+					</section>
+				</section>
+				<section>
+					<section>
+						<strong>File Size</strong>
+						<pre>
+							<code>
+alias filesize='du -sm ./* | sort -nr'
+							</code>
+						</pre>
+					</section>
+					<section>
+						<p>
+							Display a list of the files in a folder sorted by file size
+						</p>
+					</section>
+					<section class="image">
+						<img src="img/filesize.png" alt="LS with color" />
+					</section>
+				</section>
+				<section>
+					<section>
+						<strong>Customize Prompt</strong>
+						<pre>
+							<code>
+source /usr/local/git/contrib/completion/git-prompt.sh
+source /usr/local/git/contrib/completion/git-completion.bash
+GIT_PS1_SHOWDIRTYSTATE=true
+export PS1='[\[\e[0;31m\]\h\[\e[m\] \W\[\e[0;30m\]$(__git_ps1)\[\e[m\]]\$ '
+							</code>
+						</pre>
+					</section>
+					<section>
+						<p>
+							Display the host, the current directory, the git branch, and the git change state<br />
+							<a href="https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh">Git Prompt</a><br />
+							<a href="https://github.com/git/git/blob/master/contrib/completion/git-completion.bash">Git Complete</a>
+						</p>
+					</section>
+					<section class="image">
+						<img src="img/prompt.png" alt="Custom Prompt" />
+					</section>
+				</section>
+				<section>
+					<section>
+						<strong>Add Color to Git</strong>
+						<pre>
+							<code>
+[color]
+    ui = true
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+							</code>
+						</pre>
+					</section>
+					<section>
+						<p>
+							Adds color to different git file states
+						</p>
+					</section>
+					<section class="image">
+						<img src="img/gitcolor.png" alt="Git Color" />
+					</section>
+				</section>
+				<section>
+					<section>
+						<strong>Better SSH</strong>
+						<p>
+							<a href="https://help.github.com/articles/generating-an-ssh-key/">SSH Keys</a><br />
+							<a href="http://www.howtogeek.com/75007/stupid-geek-tricks-use-your-ssh-config-file-to-create-aliases-for-hosts/">SSH Alias</a>
+						</p>
+					</section>
+				</section>
+
+				<!--- Build your own tools--->
+				<section>
+					<section>
+						<h2>Build your own tools</h2>
+					</section>
+					<section class="image90">
+						<strong>Zebra</strong><br />
+						<img src="img/zebra.png" alt="Zebra" />
+					</section>
+					<section class="image90">
+						<strong>Task Detail</strong><br />
+						<img src="img/zebraDetail.png" alt="Zebra Details" />
+					</section>		
+					<section class="image90">
+						<strong>Hippo</strong><br />
+						<img src="img/hippo.png" alt="Hippo" />
+					</section>
+					<section class="image90">
+						<strong>Error Detail</strong><br />
+						<img src="img/hippoDetail.png" alt="Hippo Details" />
+					</section>					
+				</section>
+				<section class="quote">
+					<p>"We become what we behold. We shape our tools and then our tools shape us."</p>
+					<cite>Marshall McLuhan</cite>
+				</section>
+				<section>
+					<h2>Thank You!</h2>
+					<p>
+						Questions?
+					</p>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
