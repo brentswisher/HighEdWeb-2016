@@ -16,7 +16,7 @@ Other Tools we use as GVSU
 ### Accessibility
 
 [Siteimprove](http://siteimprove.com/)  
-[olor Oracle](http://colororacle.org)  
+[Color Oracle](http://colororacle.org)  
 [Colour Contrast Analyzer](https://www.paciellogroup.com/resources/contrastanalyser/)  
 [Contrast Ratio](http://leaverou.github.io/contrast-ratio/)  
 
